@@ -15,4 +15,4 @@ spring:
     show-sql: true
 user:
   name: Job
-  password: Job_Password
+  password: Job_Password1
