@@ -13,4 +13,6 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
         format_sql: true
     show-sql: true
-message: updated
+user:
+  name: Job
+  password: Job_Password
