@@ -21,4 +21,4 @@ management:
         include: "*"
       base-path: /product-actuator
 user:
-  password: local_password_updated
+  password: local_password
