@@ -13,11 +13,6 @@ spring:
     openfeign:
       circuitbreaker:
         enabled: true
-eureka:
-  instance:
-    client:
-      serviceUrl:
-        defaultZone: http://localhost:8761/eureka/
 resilience4j:
   circuitbreaker:
     configs:
