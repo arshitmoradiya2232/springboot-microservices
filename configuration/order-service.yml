@@ -19,7 +19,7 @@ management:
       exposure:
         include: "*"
       base-path: /order-actuator
-    heath:
+    health:
       show-details: always
   health:
     circuitbreakers:
