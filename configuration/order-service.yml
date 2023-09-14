@@ -21,9 +21,8 @@ management:
       base-path: /order-actuator
     health:
       show-details: always
-  health:
-    circuitbreakers:
-      enable: true
+      circuitbreakers:
+        enable: true
 eureka:
   client:
     serviceUrl:
