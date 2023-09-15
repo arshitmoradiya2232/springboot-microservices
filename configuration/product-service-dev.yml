@@ -22,4 +22,4 @@ management:
         include: "*"
       base-path: /product-actuator
 user:
-  password: dev_password
+  password: dev_password_updated
