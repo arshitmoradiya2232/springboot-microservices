@@ -13,6 +13,8 @@ spring:
     openfeign:
       circuitbreaker:
         enabled: true
+  zipkin:
+    enabled: true
 management:
   endpoints:
     web:
