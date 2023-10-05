@@ -9,8 +9,8 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-zipkin:
-  enabled: true
+  zipkin:
+    enabled: true
 eureka:
   client:
     serviceUrl:
