@@ -9,8 +9,6 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
-  zipkin:
-    enabled: true
 eureka:
   client:
     serviceUrl:
@@ -23,5 +21,9 @@ management:
       exposure:
         include: "*"
       base-path: /product-actuator
+  tracing:
+    enabled: true
+    sampling:
+      probability: 1.0
 user:
   password: dev_password
