@@ -13,8 +13,6 @@ spring:
     openfeign:
       circuitbreaker:
         enabled: true
-  zipkin:
-    enabled: true
 management:
   endpoints:
     web:
@@ -25,6 +23,10 @@ management:
       show-details: always
       circuitbreakers:
         enable: true
+  tracing:
+    enabled: true
+    sampling:
+      probability: 1.0
 eureka:
   client:
     serviceUrl:
